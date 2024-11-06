@@ -1,0 +1,26 @@
+{
+  "name": "zoom-meeting-analysis",
+  "version": "1.0.0",
+  "description": "Microservice for streaming Zoom meetings to AWS Kinesis, with downstream processing including speech-to-text conversion, sentiment analysis, and meeting summary generation.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon local.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Atique Ahmed ( Developer Advocate )",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "chalk": "^4.1.2",
+    "config": "^3.3.12",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "serverless": "^2.70.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "serverless-dotenv-plugin": "^6.0.0"
+  }
+}
