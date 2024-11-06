@@ -1,0 +1,28 @@
+service: zoom-auth-backend
+
+plugins:
+  - serverless-dotenv-plugin
+
+provider:
+  name: aws
+  runtime: nodejs18.x  # Node.js version
+  memorySize: 512
+  timeout: 30  # Reduced timeout to match API Gateway's max of 30 seconds
+  stage: production
+  #role: arn:aws:iam::485947658225:role/clothovia
+  region: us-east-1  # AWS region
+  apiGateway:
+    binaryMediaTypes:
+      - "*/*"
+      - "image/*"
+      - "application/pdf"
+      - "application/zip"
+      - "application/octet-stream"
+  lambdaHashingVersion: "20201221"  # Updated for better Lambda version hashing
+
+functions:
+  api:
+    handler: lambda.handler
+    events:
+      - http: ANY /{proxy+}
+      - http: ANY /
