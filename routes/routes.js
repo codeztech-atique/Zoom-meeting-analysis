@@ -24,7 +24,7 @@ app.post('/auth', [requestBodyValidation.validateAuthAPI], (req, res) => {
    userController.generateToken(req, res);
 })
 
-app.get('/meetings/webhook', (req, res) => {
+app.post('/meetings/webhook', (req, res) => {
    userController.getMeetingWebHooks(req, res);
 })
 
