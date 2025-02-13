@@ -68,3 +68,8 @@ exports.getToken = (body) => {
         sdkKey: appKey
     }
 }
+
+exports.getMeetingConfiguration = (body) => {
+  console.log(body);
+  return body;
+}

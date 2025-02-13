@@ -12,3 +12,22 @@ exports.generateToken = async(req, res) => {
     })
   }
 }
+
+exports.getMeetingWebHooks = async (req, res) => {
+  try {
+    // Extract query parameters from the URL
+    const { provider, endpoint_signing_key } = req.query;
+    
+    // Validate if the required parameters exist
+    if (!provider || !endpoint_signing_key) {
+      return res.status(400).send({ message: "Missing provider & endpoint_signing_key !!!" });
+    }
+
+    // Assuming userServices.getMeetingConfiguration can work with query parameters
+    const data = await userServices.getMeetingConfiguration({ provider, endpoint_signing_key });
+    
+    res.status(200).send(data);
+  } catch (err) {
+    res.status(400).send({ message: err.message || err });
+  }
+};
