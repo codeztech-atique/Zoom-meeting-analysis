@@ -16,7 +16,7 @@ exports.generateToken = async(req, res) => {
 exports.getMeetingWebHooks = async (req, res) => {
   try {
     // Extract query parameters from the URL
-    const { provider, endpoint_signing_key } = req.body;
+    const { provider, endpoint_signing_key } = req.query;
     
     // Validate if the required parameters exist
     if (!provider || !endpoint_signing_key) {
