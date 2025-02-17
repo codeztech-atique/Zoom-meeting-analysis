@@ -1,0 +1,765 @@
+[
+    {
+        "id": "all",
+        "name": "All Categories",
+        "description": "",
+        "selectEnabled": false,
+        "secondary": false,
+        "lexOrdered": false,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": null,
+        "enable": true
+    },
+    {
+        "id": "featured",
+        "name": "Featured",
+        "description": "",
+        "selectEnabled": false,
+        "secondary": false,
+        "lexOrdered": false,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": null,
+        "enable": true
+    },
+    {
+        "id": "zoom-apps",
+        "name": "Zoom Apps",
+        "description": "Zoom Apps enable your team to launch important work tools from within the Zoom client itself. Use Zoom Apps for a seamless in-product experience.",
+        "selectEnabled": false,
+        "secondary": false,
+        "lexOrdered": false,
+        "option": true,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": null,
+        "enable": true
+    },
+    {
+        "id": "analytics",
+        "name": "Analytics",
+        "description": "Analytics apps help your team streamline collaboration using data to identify trends so you and your team can make data-driven decisions. Discover analytical integrations for Zoom that can help manage data access, ingestion, preparation, interactive analysis, workflow optimization, and the collaborative sharing of insights.",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": [
+            0
+        ],
+        "enable": true
+    },
+    {
+        "id": "archiving",
+        "name": "Archiving",
+        "description": "These apps allow account administrators to setup up automated workflows to collect and archive meeting data to a 3rd party platform of their choice.",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": [],
+        "enable": true
+    },
+    {
+        "id": "broadcasting-streaming",
+        "name": "Broadcasting & Streaming",
+        "description": "Seamlessly stream, record, store, and manage Zoom Meetings. With broadcast and streaming integrations for Zoom, you can create landing pages for classes or services and create your own virtual streaming platform. Streaming and broadcast app integrations for Zoom will help you easily disseminate your Zoom meetings, virtual events, online conferences, and more, while helping you reach more people.",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": [
+            0
+        ],
+        "enable": true
+    },
+    {
+        "id": "business-system-integrator",
+        "name": "Business System Integrator",
+        "description": "Streamline the sales of Zoom services in your own marketplace with these business system integration apps. Incorporate your company's business system integration apps to seamlessly connect with Zoom's billing APIs.",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": [
+            0
+        ],
+        "enable": true
+    },
+    {
+        "id": "crm",
+        "name": "CRM",
+        "description": "Connect your team's existing CRM apps with Zoom for a more complete customer engagement profile. These integrations with Zoom automate updating and optimizing CRM records with customer data. Using CRM integrations with Zoom, your team can help build stronger relationships, develop more robust customer profiles, and more.",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": [
+            0
+        ],
+        "enable": true
+    },
+    {
+        "id": "carrier",
+        "name": "Carrier",
+        "description": "These apps will work with offering PSTN plans.",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": [],
+        "enable": true
+    },
+    {
+        "id": "carrier-provider-exchange",
+        "name": "Carrier Provider Exchange",
+        "description": "These apps will work with offering PSTN plans.",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": [
+            0
+        ],
+        "enable": true
+    },
+    {
+        "id": "team-collaborations",
+        "name": "Collaboration",
+        "description": "These collaboration integrations for Zoom will help you and your team work together across mediums, clients, and distances. Integrating collaboration apps with Zoom can help you and your team chat about projects, complete tasks, and achieve goals.",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": "team-collaborations",
+        "type": null,
+        "categoriesValue": [
+            0
+        ],
+        "enable": true
+    },
+    {
+        "id": "consumer",
+        "name": "Consumer",
+        "description": " ",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": [
+            2
+        ],
+        "enable": true
+    },
+    {
+        "id": "customer-service",
+        "name": "Customer Service",
+        "description": "Link your organization's customer service apps with Zoom to elevate your company's customer service experience. These customer service integrations for Zoom help organizations track, collaborate, and manage support tickets to help solve problems more effectively and deliver customer happiness in record time.",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": "customer-service",
+        "type": null,
+        "categoriesValue": [
+            0
+        ],
+        "enable": true
+    },
+    {
+        "id": "eCommerce",
+        "name": "E-Commerce",
+        "description": "Streamline financing tasks like expensing and invoicing, and improve visibility into billable hours, purchase flows, and payments with these eCommerce and finance integrations for Zoom. Modern eCommerce and finance apps can help accounting and finance teams automate their workflows, help nonprofits fundraise, and help you get compensated for your time.",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": [
+            0
+        ],
+        "enable": true
+    },
+    {
+        "id": "education",
+        "name": "Education",
+        "description": "These apps extend educational platforms' reach with Zoom. They facilitate collaboration between instructors and students and enable distance learning for all levels of education.",
+        "selectEnabled": true,
+        "secondary": true,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": [
+            1
+        ],
+        "enable": true
+    },
+    {
+        "id": "engineering",
+        "name": "Engineering",
+        "description": " ",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": [
+            3
+        ],
+        "enable": true
+    },
+    {
+        "id": "enterprise",
+        "name": "Enterprise",
+        "description": " ",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": [
+            2
+        ],
+        "enable": true
+    },
+    {
+        "id": "eventmanagement",
+        "name": "Event Management",
+        "description": "When you connect Zoom with event management apps, you can turn video webinars, livestreams, and meetings into engaging online experiences. These event management integrations for Zoom enable you to monetize or gate your online content, track registrations, and manage your virtual event attendees.",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": [
+            0
+        ],
+        "enable": true
+    },
+    {
+        "id": "finance",
+        "name": "Finance",
+        "description": "These apps streamline tasks like expensing, invoicing, and improve visibility into billable hours, purchase flows, and payments. They assist in helping accounting and finance to automate their workflows.",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": [
+            3
+        ],
+        "enable": true
+    },
+    {
+        "id": "financialServices",
+        "name": "Financial Services",
+        "description": "These Financial Services apps enable banking, investment management, and insurance organizations to elevate the client experience and assist with industry regulatory requirements for the capture, retention and supervision of data.",
+        "selectEnabled": true,
+        "secondary": true,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": [
+            1
+        ],
+        "enable": true
+    },
+    {
+        "id": "games",
+        "name": "Games",
+        "description": "Looking for games to bring some fun to your Zoom meetings? Zoom offers game integrations that allow you to connect with others and create interactive, enjoyable moments. Explore game integrations with Zoom for multi-player gaming, icebreakers, trivia, and more.",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": [
+            0
+        ],
+        "enable": true
+    },
+    {
+        "id": "government",
+        "name": "Government",
+        "description": "FedRAMP compliant applications.",
+        "selectEnabled": true,
+        "secondary": true,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": [
+            1
+        ],
+        "enable": true
+    },
+    {
+        "id": "health-wellness",
+        "name": "Health & Wellness ",
+        "description": "Whether you are working toward keeping healthcare providers, patients, and practitioners in contact, or you are focused on healthy living, fitness, wellness, and recreational activities, apps for Zoom can help. These integrations can help elevate the healthcare and wellness industry.",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": [
+            0
+        ],
+        "enable": true
+    },
+    {
+        "id": "health-care",
+        "name": "Healthcare",
+        "description": "These telehealth apps enable providers, patients, and healthcare practitioners to stay in contact and elevate the healthcare experience.",
+        "selectEnabled": true,
+        "secondary": true,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": "health-care",
+        "type": null,
+        "categoriesValue": [
+            1
+        ],
+        "enable": true
+    },
+    {
+        "id": "human-resources",
+        "name": "Human Resources",
+        "description": "Integrations for people operations can help your HR team put employees first. From recruiting workflows to helping employees be productive at work, connect your human resources apps with Zoom to empower users through unified collaboration.",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": "human-resources",
+        "type": null,
+        "categoriesValue": [
+            0,
+            3
+        ],
+        "enable": true
+    },
+    {
+        "id": "learning-development",
+        "name": "Learning & Development",
+        "description": "With these learning and development integrations, instructors can improve the performance of individuals and groups using Zoom. Connect your existing learning and development apps to facilitate organization, distribution, tracking, and reporting in your company's workforce.",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": "learning-development",
+        "type": null,
+        "categoriesValue": [
+            0
+        ],
+        "enable": true
+    },
+    {
+        "id": "lifestyle",
+        "name": "Lifestyle",
+        "description": "These apps relate to an individual's or consumer general-interest subject matter or services like healthy living, fitness, and recreational activities.",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": [],
+        "enable": true
+    },
+    {
+        "id": "marketing",
+        "name": "Marketing",
+        "description": "When you connect your company's marketing software to Zoom, your organization can automate marketing workflows and optimize campaigns to increase leads. Marketing integrations enable marketing teams streamline, manage, and collaborate on marketing campaigns, analytics, and social media engagement.",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": [
+            0,
+            3
+        ],
+        "enable": true
+    },
+    {
+        "id": "monitoring",
+        "name": "Monitoring",
+        "description": "These apps help diagnose problems and roll out rapid solutions by monitoring your organization's internal Zoom usage.",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": [],
+        "enable": true
+    },
+    {
+        "id": "note-taking",
+        "name": "Note Taking",
+        "description": "Supercharge your virtual meetings with these note-taking apps for Zoom. Zoom note-taking integrations can help online meeting attendees stay focused on the conversation instead of taking notes and leave your Zoom meetings with clear tasks and deadlines.",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": [
+            0
+        ],
+        "enable": true
+    },
+    {
+        "id": "other",
+        "name": "Other",
+        "description": " ",
+        "selectEnabled": true,
+        "secondary": true,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": [
+            1,
+            2,
+            3
+        ],
+        "enable": true
+    },
+    {
+        "id": "peopleops",
+        "name": "PeopleOps",
+        "description": "These apps enable the HR organization to put employees first. From recruiting workflows to helping employees be productive at work, these apps empower users through unified collaboration.",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": [],
+        "enable": true
+    },
+    {
+        "id": "presentations",
+        "name": "Presentations",
+        "description": "Engage your virtual audiences even more by elevating your online presentations with these Zoom integrations. You can turn virtual presentations into a two-way interaction, create professionally branded presentations over Zoom, and measure the sentiment and engagement of your audience.",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": [
+            0
+        ],
+        "enable": true
+    },
+    {
+        "id": "product",
+        "name": "Product",
+        "description": " ",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": [
+            3
+        ],
+        "enable": true
+    },
+    {
+        "id": "productivity",
+        "name": "Productivity",
+        "description": "Optimize your workday with automation and productivity apps. These productivity and automation integrations for Zoom will help you plan, assign tasks, track progress, automate workflows, and celebrate success so you can get things done more efficiently.",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": [
+            0
+        ],
+        "enable": true
+    },
+    {
+        "id": "professor",
+        "name": "Professor",
+        "description": " ",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": [
+            3
+        ],
+        "enable": true
+    },
+    {
+        "id": "project-management",
+        "name": "Project Management",
+        "description": "Streamline your workflows with the help of project management apps for Zoom. With Zoom project management integrations, you can easily track the progress of your tasks, create action items, share meeting summaries, and view details of your project management boards during your online meetings.",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": [
+            0
+        ],
+        "enable": true
+    },
+    {
+        "id": "recording-transcriptions",
+        "name": "Recordings",
+        "description": "Integrations for meeting recording allow you to easily export, organize, search, transcribe, and gain insight from your saved Zoom recordings. Connect Zoom with video platforms to streamline your video meeting and webinar recordings.",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": "recording-transcriptions",
+        "type": null,
+        "categoriesValue": [
+            0
+        ],
+        "enable": true
+    },
+    {
+        "id": "sales-automation",
+        "name": "Sales",
+        "description": "Connect your sales team's apps with Zoom to amplify your sales funnel and optimize conversions. Sales integrations for Zoom help efficiently manage sales pipelines, work with internal teams, track sales performance, and land more deals.",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": "sales-automation",
+        "type": null,
+        "categoriesValue": [
+            0,
+            3
+        ],
+        "enable": true
+    },
+    {
+        "id": "scheduling-calendar",
+        "name": "Scheduling",
+        "description": "These scheduling apps help facilitate automation in creating, moving, updating, and joining meetings. Connect Zoom with your organization's calendar apps to synchronize your schedule. With scheduling integrations for Zoom, you can make sure you and your team's calendar are always organized and up to date.",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": "scheduling-calendar",
+        "type": null,
+        "categoriesValue": [
+            0
+        ],
+        "enable": true
+    },
+    {
+        "id": "content-and-compliance",
+        "name": "Security & Compliance",
+        "description": "Help your proprietary content within Zoom remain secure and up to industry standards with these compliance and security apps. Integrations with these apps can help protect your organization and gain transparency into your data and systems.",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": "content-and-compliance",
+        "type": null,
+        "categoriesValue": [
+            0
+        ],
+        "enable": true
+    },
+    {
+        "id": "smallBusiness",
+        "name": "Small Business",
+        "description": " ",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": [
+            2
+        ],
+        "enable": true
+    },
+    {
+        "id": "social-activities",
+        "name": "Social Activities",
+        "description": "Enjoy an even more immersive social experience with your team during your Zoom get-togethers.With the help of these social apps, you can create conversations with people of similar interests, send GIFs, and even hear virtual applause during your online meetings.",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": [
+            0
+        ],
+        "enable": true
+    },
+    {
+        "id": "student",
+        "name": "Student",
+        "description": " ",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": [
+            3
+        ],
+        "enable": true
+    },
+    {
+        "id": "surveys-polls",
+        "name": "Surveys & Polls",
+        "description": "Create more engaging and interactive virtual meetings with survey and poll apps. With these survey and poll integrations for Zoom, drive meaningful connections, gather survey feedback, share real-time poll results with attendees, and help avoid awkward silences and unproductive meetings.",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": [
+            0
+        ],
+        "enable": true
+    },
+    {
+        "id": "telehealth",
+        "name": "Telehealth",
+        "description": "These apps assist in health-related services and the distribution of health information via Zoom. They allow long-distance patient and clinician contact, care, advice, reminders, education, intervention, monitoring, and remote admissions.",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": [],
+        "enable": true
+    },
+    {
+        "id": "transcription-translation",
+        "name": "Transcription & Translation",
+        "description": "Connect translation and transcription apps with Zoom to store, search, chronicle, caption, manage, and analyze meeting transcripts. With translation and transcription integrations, organizations can transform their transcripts from informational to actionable. Choose from these transcription and translation apps to host more inclusive, accessible Zoom meetings.",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": [
+            0
+        ],
+        "enable": true
+    },
+    {
+        "id": "transcription",
+        "name": "Transcriptions",
+        "description": "These apps help to store, search, access and analyze transcripts to help organizations transform their transcripts from informational to actionable.",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": [],
+        "enable": true
+    },
+    {
+        "id": "virtualbackground",
+        "name": "Virtual Background",
+        "description": "These apps help users to discover good quality virtual backgrounds and enrich their Zoom meeting experience.",
+        "selectEnabled": false,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": null,
+        "enable": true
+    },
+    {
+        "id": "virtual-backgrounds-scenes",
+        "name": "Virtual Backgrounds & Scenes",
+        "description": "Elevate your Zoom meetings with virtual background apps. These virtual background apps for Zoom provide the perfect background for any scenario and can help you build team culture or create a \"virtual uniform\" for more formal meetings.",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": [
+            0
+        ],
+        "enable": true
+    },
+    {
+        "id": "whiteboards",
+        "name": "Whiteboards",
+        "description": "Make your virtual meetings and online conversations seamless with the help of these Zoom whiteboard integrations. Bring new creative energy to your next brainstorming and help Zoom meeting participants easily find the whiteboard and join in with Zoom whiteboard apps.",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": [
+            0
+        ],
+        "enable": true
+    },
+    {
+        "id": "workflow-automation",
+        "name": "Workflow Automation",
+        "description": "Help improve your organization's processes with these Zoom workflow automation integrations. Users can integrate their existing business workflows with these automation apps for Zoom.",
+        "selectEnabled": true,
+        "secondary": false,
+        "lexOrdered": true,
+        "option": false,
+        "aliasId": null,
+        "type": null,
+        "categoriesValue": [
+            0
+        ],
+        "enable": true
+    }
+]
