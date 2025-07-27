@@ -14,12 +14,14 @@ app.use(bodyparser.urlencoded({limit: config.get('maximumSizeDataTransfer'), ext
 
 // const authRoutes = require('./routes/authRoutes');
 const testRoutes = require('./routes/test');
+const authRoutes = require('./routes/authRoutes');
 const apiRoutes = require('./routes/routes');
 
 
 // app.use('/auth', authRoutes);
 app.use('/', testRoutes);
 app.use('/api', apiRoutes);
+app.use('/auth', authRoutes);
 
 
 
