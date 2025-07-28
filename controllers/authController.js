@@ -89,9 +89,7 @@ exports.verifyToken = async function (req, res) {
 
     } catch (e) {
       console.log(e);
-      res.status(500).json({
-        "error": e
-      });
+      res.status(400).json(e);
     }
   } else {
     res.status(400).json({
