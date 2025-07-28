@@ -1,10 +1,21 @@
 const crypto = require('crypto');
+const { DynamoDBClient } = require("@aws-sdk/client-dynamodb");
+const { DynamoDBDocumentClient, QueryCommand, DeleteCommand } = require("@aws-sdk/lib-dynamodb");
+
 
 // Zoom Credentials
 const SDK_KEY = process.env.CLIENT_ID;
 const SDK_SECRET = process.env.CLIENT_SECRET;
 
-    // Helper function for Base64URL encoding
+const client = new DynamoDBClient({ 
+  region: "us-east-1" 
+});  // picks up AWS_REGION
+
+const docClient = DynamoDBDocumentClient.from(client);
+const tableName = process.env.PROD_ZOOM_SDK_NAME;  // e.g. "prod_zoom_sdk_users"
+const EMAIL_GSI = "email-index";   // ← your actual GSI name
+
+// Helper function for Base64URL encoding
 function base64UrlEncode(data) {
     return Buffer.from(data)
       .toString('base64')
@@ -67,4 +78,26 @@ exports.getToken = (body) => {
         signature: jwtToken,
         sdkKey: appKey
     }
+}
+
+exports.findUserIdsByEmail = async(email) => {
+  const params = {
+    TableName: tableName,
+    IndexName: EMAIL_GSI,
+    KeyConditionExpression: "email = :e",
+    ExpressionAttributeValues: { ":e": email },
+    ProjectionExpression: "userId"
+  };
+
+  const { Items = [] } = await docClient.send(new QueryCommand(params));
+  return Items.map(item => item.userId);
+}
+
+exports.deleteUserById = (userId) => {
+  const params = {
+    TableName: tableName,
+    Key: { userId },
+  };
+  const cmd = new DeleteCommand(params);
+  return docClient.send(cmd);
 }

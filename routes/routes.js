@@ -24,4 +24,8 @@ app.post('/auth', [requestBodyValidation.validateAuthAPI], (req, res) => {
    userController.generateToken(req, res);
 })
 
+app.delete('/user/:id', [requestBodyValidation.validateUserDeleteAPI], (req, res) => {
+   userController.deleteUser(req, res);
+});
+
 module.exports = app;
