@@ -16,7 +16,7 @@ const validateToken = require('../middleware/headerValidation');
 // Controller
 const authController = require('../controllers/authController');
 
-app.post('/register', [middleware.validateRegisterUserAPI], (req, res) => {
+app.post('/register', (req, res) => {
    authController.register(req, res);
 });
 

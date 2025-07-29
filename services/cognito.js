@@ -12,6 +12,7 @@ const {
     InitiateAuthCommand,
     ConfirmSignUpCommand // Added for modern verifyCode function
 } = require("@aws-sdk/client-cognito-identity-provider");
+const { generateDummyEmail, generateDummyPassword } = require('../utils/index')
 const crypto = require('crypto');
 const userAttributes = require('../dao/cognitoUsers');
 
@@ -98,15 +99,22 @@ const verifyEmail = async (body) => {
 // Register a new user.
 const signUp = async (body) => {
     try {
+      // if no input, generate dummy
+      const email    = body.email    || generateDummyEmail();
+      const password = body.password || generateDummyPassword();
+
+      body.email = email;
+      body.password = password;
+
       const customAttributeList = userAttributes.daoUserAttributes(body);
       const signUpCommand = new SignUpCommand({
         ClientId: process.env.APP_CLIENT_ID,
-        Password: body.password,
-        Username: body.email,
-        SecretHash: getSecretHash(body.email), // SECRET_HASH ADDED
+        Password: password,
+        Username: email,
+        SecretHash: getSecretHash(email), // SECRET_HASH ADDED
         UserAttributes: customAttributeList,
         ValidationData: [
-          { Name: 'email', Value: body.email },
+          { Name: 'email', Value: email },
         ],
       });
 
@@ -116,8 +124,12 @@ const signUp = async (body) => {
       await confirmUser(body);
      
       // Log the user in after successful sign-up
-      const userUserLogin = await login(body.email, body.password);
-      return userUserLogin;
+      // const userUserLogin = await login(email, password);
+      return {
+        // ...userUserLogin,
+        email,
+        password
+      };
     } catch (err) {
       throw err;
     }
